@@ -1,0 +1,405 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.ydj:how-tomcat-works-util >--------------------
+[INFO] Building how-tomcat-works-util 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ how-tomcat-works-util ---
+[INFO] Deleting D:\code\IdeaProjects\HowTomcatWorks\how-tomcat-works-util\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ how-tomcat-works-util ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\code\IdeaProjects\HowTomcatWorks\how-tomcat-works-util\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ how-tomcat-works-util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 341 source files to D:\code\IdeaProjects\HowTomcatWorks\how-tomcat-works-util\target\classes
+[INFO] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/connector/http10/HttpRequestImpl.java: Some input files use or override a deprecated API.
+[INFO] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/connector/http10/HttpRequestImpl.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostConfig.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostConfig.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CopyParentClassLoaderRule.java:[69,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CopyParentClassLoaderRule.java:[70,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CopyParentClassLoaderRule.java:[84,48] cannot find symbol
+  symbol: class Rule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CopyParentClassLoaderRule.java:[95,38] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.startup.CopyParentClassLoaderRule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[74,25] package org.apache.regexp does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[75,25] package org.apache.regexp does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[132,15] cannot find symbol
+  symbol:   class RE
+  location: class org.apache.catalina.valves.RequestFilterValve
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[138,15] cannot find symbol
+  symbol:   class RE
+  location: class org.apache.catalina.valves.RequestFilterValve
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[259,15] cannot find symbol
+  symbol:   class RE
+  location: class org.apache.catalina.valves.RequestFilterValve
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostRuleSet.java:[65,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostRuleSet.java:[66,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostRuleSet.java:[78,34] cannot find symbol
+  symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostRuleSet.java:[132,34] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.startup.HostRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/StandardEngineMBean.java:[71,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/StandardEngineMBean.java:[82,42] cannot find symbol
+  symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[79,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[80,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[81,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[92,46] cannot find symbol
+  symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[121,15] cannot find symbol
+  symbol:   class Registry
+  location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[133,15] cannot find symbol
+  symbol:   class ManagedBean
+  location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[140,15] cannot find symbol
+  symbol:   class ManagedBean
+  location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[147,15] cannot find symbol
+  symbol:   class ManagedBean
+  location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[154,15] cannot find symbol
+  symbol:   class ManagedBean
+  location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardHostDeployer.java:[80,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardHostDeployer.java:[127,13] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.core.StandardHostDeployer
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[69,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[70,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[71,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[84,37] cannot find symbol
+  symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/NamingRuleSet.java:[66,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/NamingRuleSet.java:[67,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/NamingRuleSet.java:[79,36] cannot find symbol
+  symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardHostDeployer.java:[570,15] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.core.StandardHostDeployer
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[138,34] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.startup.ContextRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/NamingRuleSet.java:[133,34] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.startup.NamingRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardContext.java:[122,34] package org.apache.tomcat.util.log does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[79,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[80,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[81,34] package org.apache.tomcat.util.log does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[275,15] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.startup.Catalina
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[372,15] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.startup.Catalina
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[653,46] cannot find symbol
+  symbol: class Rule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[655,37] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.startup.SetParentClassLoaderRule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardServer.java:[89,36] package org.apache.commons.beanutils does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CatalinaService.java:[73,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/ClassNameMBean.java:[70,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/ClassNameMBean.java:[86,37] cannot find symbol
+  symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/ContextResourceMBean.java:[78,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/ContextResourceMBean.java:[89,43] cannot find symbol
+  symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[78,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[79,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[80,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[91,33] cannot find symbol
+  symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[120,15] cannot find symbol
+  symbol:   class Registry
+  location: class org.apache.catalina.mbeans.GroupMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[132,15] cannot find symbol
+  symbol:   class ManagedBean
+  location: class org.apache.catalina.mbeans.GroupMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[66,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[67,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[68,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[80,36] cannot find symbol
+  symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[134,34] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.realm.MemoryRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[149,36] cannot find symbol
+  symbol: class Rule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[157,27] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.realm.MemoryUserRule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRealm.java:[76,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRealm.java:[109,20] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.realm.MemoryRealm
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRealm.java:[275,28] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.realm.MemoryRealm
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/LifecycleListenerRule.java:[68,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/LifecycleListenerRule.java:[69,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/LifecycleListenerRule.java:[79,44] cannot find symbol
+  symbol: class Rule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/LifecycleListenerRule.java:[94,34] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.startup.LifecycleListenerRule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/EngineRuleSet.java:[66,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/EngineRuleSet.java:[67,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/EngineRuleSet.java:[81,36] cannot find symbol
+  symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/EngineRuleSet.java:[135,34] cannot find symbol
+  symbol:   class Digester
+  location: class org.apache.catalina.startup.EngineRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardWrapper.java:[91,34] package org.apache.tomcat.util.log does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[68,33] package org.apache.commons.daemon does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[69,33] package org.apache.commons.daemon does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[79,49] cannot find symbol
+  symbol: class DaemonContext
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[80,5] cannot find symbol
+  symbol:   class DaemonController
+  location: class org.apache.catalina.startup.BootstrapServiceContext
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[83,12] cannot find symbol
+  symbol:   class DaemonController
+  location: class org.apache.catalina.startup.BootstrapServiceContext
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[87,31] cannot find symbol
+  symbol:   class DaemonController
+  location: class org.apache.catalina.startup.BootstrapServiceContext
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Embedded.java:[72,30] package org.apache.tomcat.util does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[100,36] package org.apache.commons.beanutils does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[101,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[102,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[153,20] cannot find symbol
+  symbol:   class Registry
+  location: class org.apache.catalina.mbeans.MBeanUtils
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[106,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[107,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[108,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[119,35] cannot find symbol
+  symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[1592,32] cannot find symbol
+  symbol:   class Registry
+  location: class org.apache.catalina.mbeans.MBeanUtils
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[129,20] cannot find symbol
+  symbol:   class Registry
+  location: class org.apache.catalina.mbeans.MBeanFactory
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[77,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[78,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[79,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[90,43] cannot find symbol
+  symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[118,15] cannot find symbol
+  symbol:   class Registry
+  location: class org.apache.catalina.mbeans.NamingResourcesMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[124,15] cannot find symbol
+  symbol:   class ManagedBean
+  location: class org.apache.catalina.mbeans.NamingResourcesMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapService.java:[71,33] package org.apache.commons.daemon does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapService.java:[72,33] package org.apache.commons.daemon does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.207 s
+[INFO] Finished at: 2019-03-08T15:58:46+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project how-tomcat-works-util: Compilation failure: Compilation failure: 
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CopyParentClassLoaderRule.java:[69,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CopyParentClassLoaderRule.java:[70,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CopyParentClassLoaderRule.java:[84,48] cannot find symbol
+[ERROR]   symbol: class Rule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CopyParentClassLoaderRule.java:[95,38] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.startup.CopyParentClassLoaderRule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[74,25] package org.apache.regexp does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[75,25] package org.apache.regexp does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[132,15] cannot find symbol
+[ERROR]   symbol:   class RE
+[ERROR]   location: class org.apache.catalina.valves.RequestFilterValve
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[138,15] cannot find symbol
+[ERROR]   symbol:   class RE
+[ERROR]   location: class org.apache.catalina.valves.RequestFilterValve
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/valves/RequestFilterValve.java:[259,15] cannot find symbol
+[ERROR]   symbol:   class RE
+[ERROR]   location: class org.apache.catalina.valves.RequestFilterValve
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostRuleSet.java:[65,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostRuleSet.java:[66,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostRuleSet.java:[78,34] cannot find symbol
+[ERROR]   symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/HostRuleSet.java:[132,34] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.startup.HostRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/StandardEngineMBean.java:[71,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/StandardEngineMBean.java:[82,42] cannot find symbol
+[ERROR]   symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[79,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[80,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[81,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[92,46] cannot find symbol
+[ERROR]   symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[121,15] cannot find symbol
+[ERROR]   symbol:   class Registry
+[ERROR]   location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[133,15] cannot find symbol
+[ERROR]   symbol:   class ManagedBean
+[ERROR]   location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[140,15] cannot find symbol
+[ERROR]   symbol:   class ManagedBean
+[ERROR]   location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[147,15] cannot find symbol
+[ERROR]   symbol:   class ManagedBean
+[ERROR]   location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MemoryUserDatabaseMBean.java:[154,15] cannot find symbol
+[ERROR]   symbol:   class ManagedBean
+[ERROR]   location: class org.apache.catalina.mbeans.MemoryUserDatabaseMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardHostDeployer.java:[80,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardHostDeployer.java:[127,13] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.core.StandardHostDeployer
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[69,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[70,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[71,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[84,37] cannot find symbol
+[ERROR]   symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/NamingRuleSet.java:[66,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/NamingRuleSet.java:[67,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/NamingRuleSet.java:[79,36] cannot find symbol
+[ERROR]   symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardHostDeployer.java:[570,15] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.core.StandardHostDeployer
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/ContextRuleSet.java:[138,34] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.startup.ContextRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/NamingRuleSet.java:[133,34] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.startup.NamingRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardContext.java:[122,34] package org.apache.tomcat.util.log does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[79,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[80,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[81,34] package org.apache.tomcat.util.log does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[275,15] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.startup.Catalina
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[372,15] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.startup.Catalina
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[653,46] cannot find symbol
+[ERROR]   symbol: class Rule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Catalina.java:[655,37] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.startup.SetParentClassLoaderRule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardServer.java:[89,36] package org.apache.commons.beanutils does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/CatalinaService.java:[73,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/ClassNameMBean.java:[70,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/ClassNameMBean.java:[86,37] cannot find symbol
+[ERROR]   symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/ContextResourceMBean.java:[78,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/ContextResourceMBean.java:[89,43] cannot find symbol
+[ERROR]   symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[78,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[79,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[80,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[91,33] cannot find symbol
+[ERROR]   symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[120,15] cannot find symbol
+[ERROR]   symbol:   class Registry
+[ERROR]   location: class org.apache.catalina.mbeans.GroupMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/GroupMBean.java:[132,15] cannot find symbol
+[ERROR]   symbol:   class ManagedBean
+[ERROR]   location: class org.apache.catalina.mbeans.GroupMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[66,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[67,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[68,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[80,36] cannot find symbol
+[ERROR]   symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[134,34] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.realm.MemoryRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[149,36] cannot find symbol
+[ERROR]   symbol: class Rule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRuleSet.java:[157,27] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.realm.MemoryUserRule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRealm.java:[76,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRealm.java:[109,20] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.realm.MemoryRealm
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/realm/MemoryRealm.java:[275,28] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.realm.MemoryRealm
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/LifecycleListenerRule.java:[68,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/LifecycleListenerRule.java:[69,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/LifecycleListenerRule.java:[79,44] cannot find symbol
+[ERROR]   symbol: class Rule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/LifecycleListenerRule.java:[94,34] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.startup.LifecycleListenerRule
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/EngineRuleSet.java:[66,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/EngineRuleSet.java:[67,35] package org.apache.commons.digester does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/EngineRuleSet.java:[81,36] cannot find symbol
+[ERROR]   symbol: class RuleSetBase
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/EngineRuleSet.java:[135,34] cannot find symbol
+[ERROR]   symbol:   class Digester
+[ERROR]   location: class org.apache.catalina.startup.EngineRuleSet
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/core/StandardWrapper.java:[91,34] package org.apache.tomcat.util.log does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[68,33] package org.apache.commons.daemon does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[69,33] package org.apache.commons.daemon does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[79,49] cannot find symbol
+[ERROR]   symbol: class DaemonContext
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[80,5] cannot find symbol
+[ERROR]   symbol:   class DaemonController
+[ERROR]   location: class org.apache.catalina.startup.BootstrapServiceContext
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[83,12] cannot find symbol
+[ERROR]   symbol:   class DaemonController
+[ERROR]   location: class org.apache.catalina.startup.BootstrapServiceContext
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapServiceContext.java:[87,31] cannot find symbol
+[ERROR]   symbol:   class DaemonController
+[ERROR]   location: class org.apache.catalina.startup.BootstrapServiceContext
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/Embedded.java:[72,30] package org.apache.tomcat.util does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[100,36] package org.apache.commons.beanutils does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[101,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[102,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[153,20] cannot find symbol
+[ERROR]   symbol:   class Registry
+[ERROR]   location: class org.apache.catalina.mbeans.MBeanUtils
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[106,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[107,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[108,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[119,35] cannot find symbol
+[ERROR]   symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanUtils.java:[1592,32] cannot find symbol
+[ERROR]   symbol:   class Registry
+[ERROR]   location: class org.apache.catalina.mbeans.MBeanUtils
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/MBeanFactory.java:[129,20] cannot find symbol
+[ERROR]   symbol:   class Registry
+[ERROR]   location: class org.apache.catalina.mbeans.MBeanFactory
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[77,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[78,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[79,34] package org.apache.commons.modeler does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[90,43] cannot find symbol
+[ERROR]   symbol: class BaseModelMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[118,15] cannot find symbol
+[ERROR]   symbol:   class Registry
+[ERROR]   location: class org.apache.catalina.mbeans.NamingResourcesMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/mbeans/NamingResourcesMBean.java:[124,15] cannot find symbol
+[ERROR]   symbol:   class ManagedBean
+[ERROR]   location: class org.apache.catalina.mbeans.NamingResourcesMBean
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapService.java:[71,33] package org.apache.commons.daemon does not exist
+[ERROR] /D:/code/IdeaProjects/HowTomcatWorks/how-tomcat-works-util/src/main/java/org/apache/catalina/startup/BootstrapService.java:[72,33] package org.apache.commons.daemon does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
