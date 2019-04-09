@@ -10,6 +10,7 @@ import java.io.InputStream;
  * @description :
  */
 public class Request {
+    private static final int BUFFER_SIZE = 2048;
     private InputStream input;
     private String uri;
 
@@ -21,7 +22,7 @@ public class Request {
         // Read a set of characters from the socket
         StringBuffer request = new StringBuffer(2048);
         int i;
-        byte[] buffer = new byte[2048];
+        byte[] buffer = new byte[BUFFER_SIZE];
         try {
             i = input.read(buffer);
         } catch (IOException e) {
