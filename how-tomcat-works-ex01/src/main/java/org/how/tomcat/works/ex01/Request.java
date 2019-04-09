@@ -28,7 +28,9 @@ public class Request {
             e.printStackTrace();
             i = -1;
         }
-        request.append(new String(buffer, 0, i));
+        if(i > 0){
+            request.append(new String(buffer, 0, i));
+        }
         System.out.print(request.toString());
         uri = parseUri(request.toString());
     }
